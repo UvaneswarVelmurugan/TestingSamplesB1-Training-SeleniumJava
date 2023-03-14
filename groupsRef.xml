@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+	<parameter name="browser1" value="chrome"/>
+	<parameter name="browser2" value="edge"/>
+  <test thread-count="5" name="ModuleOneTest">
+	  <groups>
+		 <run> 
+			  <include name="featureOne"/>
+			  <exclude name="featureThree"/>
+		  </run>
+	  </groups>
+		  
+    <classes>
+      <class name="testScripts.SampleOneTest"/>
+      <class name="testScripts.SampleTwoTest"/>
+    </classes>
+  </test> <!-- ModuleOneTest -->
+</suite> <!-- SampleSuite -->

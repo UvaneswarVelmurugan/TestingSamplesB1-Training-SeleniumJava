@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ModuleOneTest(failed)">
+    <classes>
+      <class name="testScript.SampleTwoTest">
+        <methods>
+          <include name="cypressSearchTest"/>
+        </methods>
+      </class> <!-- testScript.SampleTwoTest -->
+      <class name="testScript.SampleOneTest">
+        <methods>
+          <include name="seleniumSearchTest"/>
+        </methods>
+      </class> <!-- testScript.SampleOneTest -->
+    </classes>
+  </test> <!-- ModuleOneTest(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

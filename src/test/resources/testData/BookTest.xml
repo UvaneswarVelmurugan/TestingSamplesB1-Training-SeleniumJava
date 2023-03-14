@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objRep>
+	<signUpBtn>//button[@id='signup']</signUpBtn>
+	<userName>//input[@id='s-name']</userName>
+	<uSurName>//input[@id='s-surname']</uSurName>
+	<eMail>//input[@id='s-email']</eMail>
+	<pwd>//input[@id='s-password2']</pwd>
+	<comp>//input[@id='s-company']</comp>
+	<myselfBtn>//input[@id='myself']</myselfBtn>
+	<markAgreeBtn>//input[@id='marketing-agreement']</markAgreeBtn>
+	<privacyBtn>//input[@id='privacy-policy']</privacyBtn>
+	<registerBtn>//button[@id='register-btn']</registerBtn>
+	<bookName>//input[@name='searchbar']</bookName>
+	<searchBtn>//button[@id='button-search']</searchBtn>
+	<bookBtn>//p[@class='preview-price']</bookBtn>
+	<cartBtn>//button[contains(text(),'Add to cart')]</cartBtn>
+	<checkBtn>//button[contains(text(),'Checkout')]</checkBtn>
+	<add>//input[@id='s-address']</add>
+	<zip>//input[@id='s-zipcode']</zip>
+	<city>//input[@id='s-city']</city>
+	<asapBtn>//input[@id='asap']</asapBtn>
+	<buyBtn>//button[contains(text(),'Buy')]</buyBtn>
+	<successMsg>//p[@id='order-confirmation']</successMsg>
+</objRep>

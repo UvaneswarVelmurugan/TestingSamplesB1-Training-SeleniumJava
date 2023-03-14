@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objRep>
+	<uname>//input[@name='username']</uname>
+	<pwd>password</pwd>
+	<loginBtn>radius</loginBtn>
+	<successMsg>.flash.success</successMsg>
+</objRep>
