@@ -28,7 +28,7 @@ public class SampleTwoTest {
 		searchBox.sendKeys("Cypress Tutorial");
 		searchBox.sendKeys(Keys.ENTER);
 		System.out.println("Page Title : "+ driver.getTitle());
-		Assert.assertEquals(driver.getTitle(), "Cypress Tutorial - Google Search Page");
+		Assert.assertEquals(driver.getTitle(), "Cypress Tutorial - Google Search ");
 		//driver.close();
   }
 }

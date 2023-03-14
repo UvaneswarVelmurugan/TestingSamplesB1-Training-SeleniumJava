@@ -3,7 +3,6 @@
 <suite name="SampleSuite" thread-count="2" parallel="tests" time-out="10000" >
  <test name="ModuleOneTest">
     <classes>
-    
       <class name="testScript.SampleTwoTest"/>
     </classes>
   </test> <!-- ModuleOneTest -->
